@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.navbar h2 a{
+    opacity: 1;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 1rem;
+}

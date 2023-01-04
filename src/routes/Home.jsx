@@ -33,8 +33,11 @@ const Home = () => {
         monitoramento.map((item, index) => {
           return (
             <div className="item" key={index}>
-              <h2>Nome da Propriedade: {item.idVinculo}</h2>
-              <p>Cadastro Rural: {item.numeroCadastroRural}</p>
+              <h2>Nome da Propriedade: {item.idMonitoramento}</h2>
+              <p>Data: {item.dataMonitoramento}</p>
+              <p>Analista: {item.analista}</p>
+              <p>Resultado: {item.resultado}</p>
+              <p>Parecer Análise: {item.parecerAnalise}</p>
             </div>
           );
         })
